@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lecture 3 Demo</title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/styles.css">
+    <script type="text/javascript" src="assets/javascripts/index.js"></script>
+  </head>
+    <body>
+      <div id="header">
+        <img src="assets/images/logo.png">
+        <div id="homeBtn"><a href="index.html">Home</a></div>
+        <div id="homeBtn"><a href="about.html">About</a></div>
+        <div id="homeBtn"><a href="about.html">Discography</a></div>
+
+        <div id="control">
+          <img id="playBtn" src="assets/images/playBtn.png" onclick="play()">
+        </div>
+      </div>
+      <div id = "background">
+        <video controls id="mainVideo", style="display: none">
+          <source src="assets/videos/ghibli_film_collection_1080p.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <img src="assets/images/1234.png" id="mainImage">
+      </div>
+      <div id="footer">
+        <div id="snsLogo"><img src="assets/images/facebook.png"></div>
+        <div id="snsLogo"><img src="assets/images/instagram.png"></div>
+        <div id="snsLogo"><img src="assets/images/twitter.png"></div>
+      </div>
+    </body>
+</html>
