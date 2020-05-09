@@ -1,0 +1,57 @@
+#header {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  background-color: rgb(17, 28, 36);
+  color: white;
+  width:100%;
+  height: 70px;
+  float: right;
+}
+
+#header img {
+  float: left;
+  height: 50px;
+  width: auto;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#homeBtn {
+  font-size: 30px;
+  float: left;
+  height: 50px;
+  padding-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+#homeBtn:hover {
+  background-color: white;
+  color: black;
+  text-decoration-color: white;
+}
+
+#homeBtn a:link {
+  color: white;
+  text-decoration: none;
+}
+
+#homeBtn a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+#control {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+#control img {
+  width: 30px;
+  height: 30px;
+}
